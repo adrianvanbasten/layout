@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Adrianpedia.com</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    Adrianpedia
+                </div>
+                <div id="hamburger" style="font-size: 30px;">
+                    =
+                </div>
+                <ul class="nav-list">
+                    <ul id="menu" class="hidden"
+                        <strong>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="article.html">Article</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </strong>
+                </ul>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<footer>
+    <div class="container">
+        <strong>
+            &copy; 2024 Adrianpedia Website. All rights reserved.
+        </strong>
+    </div>
+</footer>
+<script>
+    const Hamburger = document.getElementById('hamburger')
+    const Menu = document.getElementById('menu')
+
+    Hamburger.addEventListener('click', () => {
+        Menu.classList.toggle('hidden')
+    })
+</script>
+</body>
+</html>
